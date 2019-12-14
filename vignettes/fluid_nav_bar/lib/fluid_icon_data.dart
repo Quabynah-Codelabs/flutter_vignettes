@@ -10,9 +10,15 @@ class FluidFillIconData {
 
 class FluidFillIcons {
   static final platform = FluidFillIconData([
-    ui.Path()..moveTo(0, -6)..lineTo(10, -6),
-    ui.Path()..moveTo(5, 0)..lineTo(-5, 0),
-    ui.Path()..moveTo(-10, 6)..lineTo(0, 6),
+    ui.Path()
+      ..moveTo(0, -6)
+      ..lineTo(10, -6),
+    ui.Path()
+      ..moveTo(5, 0)
+      ..lineTo(-5, 0),
+    ui.Path()
+      ..moveTo(-10, 6)
+      ..lineTo(0, 6),
   ]);
   static final window = FluidFillIconData([
     ui.Path()..addRRect(RRect.fromLTRBXY(-12, -12, -2, -2, 2, 2)),
@@ -21,8 +27,20 @@ class FluidFillIcons {
     ui.Path()..addRRect(RRect.fromLTRBXY(2, 2, 12, 12, 2, 2)),
   ]);
   static final arrow = FluidFillIconData([
-    ui.Path()..moveTo(-10, 6)..lineTo(10, 6)..moveTo(10, 6)..lineTo(3, 0)..moveTo(10, 6)..lineTo(3, 12),
-    ui.Path()..moveTo(10, -6)..lineTo(-10, -6)..moveTo(-10, -6)..lineTo(-3, 0)..moveTo(-10, -6)..lineTo(-3, -12),
+    ui.Path()
+      ..moveTo(-10, 6)
+      ..lineTo(10, 6)
+      ..moveTo(10, 6)
+      ..lineTo(3, 0)
+      ..moveTo(10, 6)
+      ..lineTo(3, 12),
+    ui.Path()
+      ..moveTo(10, -6)
+      ..lineTo(-10, -6)
+      ..moveTo(-10, -6)
+      ..lineTo(-3, 0)
+      ..moveTo(-10, -6)
+      ..lineTo(-3, -12),
   ]);
   static final user = FluidFillIconData([
     ui.Path()..arcTo(Rect.fromLTRB(-5, -16, 5, -6), 0, 1.9 * math.pi, true),
@@ -30,7 +48,10 @@ class FluidFillIcons {
   ]);
   static final home = FluidFillIconData([
     ui.Path()..addRRect(RRect.fromLTRBXY(-10, -2, 10, 10, 2, 2)),
-    ui.Path()..moveTo(-14, -2)..lineTo(14, -2)..lineTo(0, -16)..close(),
+    ui.Path()
+      ..moveTo(-14, -2)
+      ..lineTo(14, -2)
+      ..lineTo(0, -16)
+      ..close(),
   ]);
 }
-
